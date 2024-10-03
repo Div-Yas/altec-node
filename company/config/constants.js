@@ -1,0 +1,12 @@
+// module.exports.AUTH_BACKEND_URL = "http://localhost:8082";
+// module.exports.FRONTEND_URL = "http://localhost:3100";
+// module.exports.SAP_BACKEND_URL = "http://localhost:8089";
+// module.exports.CUSTOMER_BACKEND_URL = "http://localhost:8085";
+module.exports.AUTH_BACKEND_URL = "http://216.48.177.166/ms/auth";
+module.exports.FRONTEND_URL = "http://localhost:3100";
+module.exports.SAP_BACKEND_URL = "http://216.48.177.166/ms/sap";
+module.exports.CUSTOMER_BACKEND_URL = "http://216.48.177.166/ms/customer";
+module.exports.ROLE_ADMIN = "Admin";
+module.exports.ROLE_DISTRIBUTOR = "Distributor";
+module.exports.ROLE_SALESMAN = "Salesman";
+module.exports.CONFLICT_ERROR = 11000;

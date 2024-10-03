@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ALTEC Invoice</title>
+
+    <style>
+        @media screen,
+        print {
+
+            table {
+                width: 100%;
+                /* border-spacing: 5px 0px 5px 0px; */
+                font-size:8pt;
+                font-family: "Arial Narrow", Arial, sans-serif;
+                border-collapse: collapse!important;
+
+            }
+            table>tbody>tr{
+                border-bottom: none;
+            }
+            th,
+            td {
+                text-align: left;
+                vertical-align: top;
+
+                /* margin: 5px 5px 5px 5px; */
+                padding: 4px 4px 4px 4px;
+            }
+        }
+
+        .right_align {
+            text-align: right;
+        }
+</style>
+</head>
+
+<body>
+
+    <h2 class="text-center"><strong>Tax Invoice<strong></h2>
+
+        <table  cellspacing="0" cellpadding="0" width="100%" >
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Inv. Date</th>
+                    <th>Inv. No.</th>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Qty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><b>Bill No : </b><%= bill_no %></tr>
+
+                <% product.forEach(function(val, k) { %>
+                    <tr class="noborder">
+                      <td><%= k + 1 %></td>
+                      <td><%= val.created_at %></td>
+                      <td><%= val.invoice_number %></td>
+                      <td><%= val.product_id %></td>
+                      <td><%= val.product_name %></td>
+                      <td><%= val.quantity %></td>
+                    </tr>
+                  <% }); %>
+                <!-- <tr>
+                    <td width="10%"  class="left_align">
+                        <br>
+                        <p  class="p_st"><strong>Inv No : </strong></p>
+                        <p  class="p_st">Date :</p>
+                        <p  class="p_st">SM Name :</p>
+                        <p  class="p_st">Product ID :</p>
+                        <p  class="p_st">Product Name :</p>
+                        <p  class="p_st">Shipping Date :</p>
+                        <td></td>
+                    </td>
+                  
+                </tr> -->
+            </tbody>
+        </table>
+</body>

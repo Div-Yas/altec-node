@@ -1,0 +1,13 @@
+/configuration/node_modules/
+/product/node_modules/
+/auth/node_modules/
+/company/node_modules/
+/customer/node_modules/
+/distribution/node_modules/
+/configuration/assets/uploads
+/salesreturn/node_modules/
+/customer/assets/uploads
+/distribution/assets/uploads
+/common/node_modules/
+/sap-configuration/node_modules/
+/product/assets/uploads

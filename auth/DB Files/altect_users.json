@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "64ad0b4795c4f4038214e940"
+  },
+  "companyid": "C001",
+  "username": "Admin",
+  "mobileno": "1000000001",
+  "email": "admin@hepl.com",
+  "password": "$2b$10$QOygc00HfZGpjhQ32ULqEO4226Xq4xjrZxTJ0Sb4spb7m5kRUAr9y",
+  "role": "Admin",
+  "status": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdat": {
+    "$date": {
+      "$numberLong": "1689062215513"
+    }
+  },
+  "updatedat": {
+    "$date": {
+      "$numberLong": "1689062215513"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ad2c99723eb257cdf02be7"
+  },
+  "companyid": "C001",
+  "username": "Admin1",
+  "mobileno": "1000000002",
+  "email": "admin1@hepl.com",
+  "password": "$2b$10$tHeWd0MAjg8P6LzZVrWLYuFbgKSgS189h5VTkxXy8gcWfmvqo8x7y",
+  "role": "Admin",
+  "status": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdat": {
+    "$date": {
+      "$numberLong": "1689070745017"
+    }
+  },
+  "updatedat": {
+    "$date": {
+      "$numberLong": "1689070745017"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64b4e31f4c59a01b950b58ba"
+  },
+  "companyid": "C001",
+  "username": "Distributor",
+  "mobileno": "1234567890",
+  "email": "testdistr@hepl.com",
+  "password": "$2b$10$TAi5rRPSlCzALaOeo7pNZObrnWQOKCUe2r0Z2i2xRGUGhH85NIUYG",
+  "role": "Distributor",
+  "status": true,
+  "isDeleted": false,
+  "deletedAt": null,
+  "createdat": {
+    "$date": {
+      "$numberLong": "1689576223705"
+    }
+  },
+  "updatedat": {
+    "$date": {
+      "$numberLong": "1689576223705"
+    }
+  },
+  "__v": 0
+}]
